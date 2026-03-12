@@ -1,0 +1,42 @@
+[
+/*
+	CS ideas:
+	Splits: split from base Deciv factions
+	New Star -> Nomad Army, Salvation Hub
+	Hexlock -> Chemtown, RaD-E
+	Children of Rust -> Northwood Lodge, Tower Dwellers
+	Blackwarden -> Phantom Company, Bullet Bazaar
+	Atlas -> Vault Cerebro, Daedalus Workshops
+	Commonwealth -> Navarro, Goldbank
+	Patriots -> Jericho Hold, Agribase Delta
+	Enclavers -> Thornton Clan, Moonshiners
+	Deadrock -> Debtville, Stim City
+	Crimson Legion -> Demeter Commune, Oraculata
+	Cult of Ignis -> History-Men, Guzzo Lake
+	Mariners -> Dagon Flotilla, Waveriders
+	New Afrika -> Sahel Triumvirate, Griot College
+	Proklyatyye -> Hundred Hands, Radium Monastery
+	Hunnu -> Golden Horde, Horned Clans
+	Prasiddh -> Orbital Chroniclers, Mahagurus
+	Calamity Star -> Accelerationists, Unbound Martyrs
+	
+	CS types: Research, Prayer, Farming, Trading, Weapons, Culture, Labor
+	
+	{
+		"name": "CityStateTemplate",
+		"adjective": ["Adjective"],
+		"cityStateType": "Research",
+		"style": "Corporate",
+		"uniques": [
+			"Starts with [Writing]",
+			"Starts with [Electronics]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250, 180, 250],
+		"cities": ["The Archive"]
+	},
+*/
+]
