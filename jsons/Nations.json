@@ -7,7 +7,7 @@
 	Children of Rust -> Northwood Lodge, Tower Dwellers
 	Blackwarden -> Phantom Company, Bullet Bazaar
 	Atlas -> Vault Cerebro, Daedalus Workshops
-	Commonwealth -> Navarro, Goldbank
+	Commonwealth -> Navarro Stead, Goldbank
 	Patriots -> Jericho Hold, Agribase Delta
 	Enclavers -> Thornton Clan, Moonshiners
 	Deadrock -> Debtville, Stim City
@@ -36,7 +36,290 @@
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [250, 180, 250],
-		"cities": ["The Archive"]
+		"cities": ["CityName"]
 	},
 */
+
+	{
+		"name": "Nomad Army",
+		"adjective": ["Nomad Army"],
+		"cityStateType": "Weapons",
+		//"style": "Corporate",
+		"uniques": [
+			"Cannot build [Enslaved] units"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We shall disperse, for now...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [212, 147, 91],
+		"cities": ["Nomad's Rest"]
+	},
+	{
+		"name": "Salvation Hub",
+		"adjective": ["Salvationist"],
+		"cityStateType": "Farming",
+		//"style": "Corporate",
+		"uniques": [
+			"Cannot build [Enslaved] units"
+		],
+		"declaringWar": "We don't want to, but we must fight!",
+		"attacked": "You big meanie! We'll have to fight you now!",
+		"defeated": "We just wanted to help!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [209, 181, 102],
+		"cities": ["Salvation Hub"]
+	},
+	{
+		"name": "Chemtown",
+		"adjective": ["Chemtown"],
+		"cityStateType": "Labor",
+		"style": "Hexlock",
+		"uniques": [
+			"Starts with [Writing]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [182, 250, 47],
+		"cities": ["Chemtown"]
+	},
+	{
+		"name": "RaD-E",
+		"adjective": ["RaD"],
+		"cityStateType": "Research",
+		"style": "Hexlock",
+		"uniques": [
+			"Starts with [Writing]",
+			"Starts with [Engineering]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "You must have mistook us for our less ethical peers. Away with you!",
+		"defeated": "We'll never beat Hexlock ethically, now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [64, 237, 217],
+		"cities": ["RaD Labs"]
+	},
+	{
+		"name": "Northwood Lodge",
+		"adjective": ["Northwood"],
+		"cityStateType": "Weapons",
+		//"style": "Corporate",
+		"uniques": [
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
+		],
+		"declaringWar": "Is has ben decided. You are prey.",
+		"attacked": "The hunters will not become the hunted!",
+		"defeated": "Our hunts will live on in stories.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0, 148, 69],
+		"cities": ["Northwood Lodge"]
+	},
+	{
+		"name": "Tower Dwellers",
+		"adjective": ["Tower Dwellers"],
+		"cityStateType": "Culture",
+		//"style": "Corporate",
+		"uniques": [
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
+		],
+		"declaringWar": "Time to swoop down and reap the spoils!",
+		"attacked": "Haha, have fun trying to get up here!",
+		"defeated": "How did they get up here?!.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [207, 27, 135],
+		"cities": ["The Towers"]
+	},
+	{
+		"name": "Phantom Company",
+		"adjective": ["Phantom Company"],
+		"cityStateType": "Weapons",
+		"style": "Corporate",
+		"uniques": [
+			"Starts with [Writing]",
+			"Starts with [Machinery]"
+		],
+		"declaringWar": "You have to understand, this is just business.",
+		"attacked": "We will retaliate. Watch your backs.",
+		"defeated": "We were never here in the first place.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [156, 219, 213],
+		"cities": ["Phantom Base"]
+	},
+	{
+		"name": "Bullet Bazaar",
+		"adjective": ["Bazaar"],
+		"cityStateType": "Trading",
+		"style": "Corporate",
+		"uniques": [
+			"Starts with [Writing]",
+			"Starts with [Machinery]"
+		],
+		"declaringWar": "It's just market pressure, no big deal!",
+		"attacked": "Looks like someone is looking to get free samples of our merchandise!",
+		"defeated": "Time to close up shop, clearance sale's over.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [227, 160, 73],
+		"cities": ["Bullet Bazaar"]
+	},
+	{
+		"name": "Vault Cerebro",
+		"adjective": ["Cerebro"],
+		"cityStateType": "Research",
+		"style": "Corporate",
+		"uniques": [
+			"Starts with [Writing]",
+			"Starts with [Construction]",
+			"Starts with [Machinery]",
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "This just proves that our experiments are not viable.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [55, 121, 219],
+		"cities": ["Vault Cerebro"]
+	},
+	{
+		"name": "Daedalus Workshops",
+		"adjective": ["Daedalus"],
+		"cityStateType": "Labor",
+		"style": "Corporate",
+		"uniques": [
+			"Starts with [Construction]",
+			"Starts with [Machinery]",
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Well, back to the drawing board...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0, 150, 184],
+		"cities": ["Daedalus Workshops"]
+	},
+	{
+		"name": "Navarro Stead",
+		"adjective": ["Navarro"],
+		"cityStateType": "Farming",
+		//"style": "Corporate",
+		"uniques": [
+			"Starts with [Redomestication]",
+			"Cannot build [Enslaved] units",
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [230, 125, 28],
+		"cities": ["Navarro Stead"]
+	},
+	{
+		"name": "Goldbank",
+		"adjective": ["Goldbank"],
+		"cityStateType": "Trading",
+		//"style": "Corporate",
+		"uniques": [
+			"Starts with [Redomestication]",
+			"Cannot build [Enslaved] units",
+		],
+		"declaringWar": "We must repossess your assets now.",
+		"attacked": "No more loans for you!",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 229, 31],
+		"cities": ["Goldbank"]
+	},
+	{
+		"name": "Jericho Hold",
+		"adjective": ["Jericho"],
+		"cityStateType": "Weapons",
+		"style": "Military",
+		"uniques": [
+			"[+100]% [Weapons] resource production",
+			"Starts with [Writing]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Jericho will hold!",
+		"defeated": "The trumpets finally call for us...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [138, 255, 245],
+		"cities": ["Jericho Hold"]
+	},
+	{
+		"name": "Agribase Delta",
+		"adjective": ["Agribase Delta"],
+		"cityStateType": "Farming",
+		"style": "Military",
+		"uniques": [
+			"[+100]% [Weapons] resource production",
+			"Starts with [Writing]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Noo! Our strategic crop reserves!!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [146, 209, 121],
+		"cities": ["Agribase Delta"]
+	},
+	{
+		"name": "Thornton Clan",
+		"adjective": ["Thornton"],
+		"cityStateType": "Farming",
+		"style": "Military",
+		"uniques": [
+			"Units ignore terrain costs when moving into any tile with Hills",
+			"No Maintenance costs for improvements in [Hill] tiles",
+		],
+		"declaringWar": "Time for you to squal like a pig!",
+		"attacked": "Attack me, and you deal with the whole family!",
+		"defeated": "Dangit, I thought I could raise a family in peace.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [121, 181, 119],
+		"cities": ["Thornton Cabin"]
+	},
+	{
+		"name": "Moonshiners",
+		"adjective": ["Moonshiner"],
+		"cityStateType": "Culture",
+		"style": "Military",
+		"uniques": [
+			"Units ignore terrain costs when moving into any tile with Hills",
+			"No Maintenance costs for improvements in [Hill] tiles",
+		],
+		"declaringWar": "Sorry pal, we lost a bet and now we gotta fight you.",
+		"attacked": "Are you drunk, or what?",
+		"defeated": "Never thought I'd be sober again, but here we are.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [209, 178, 212],
+		"cities": ["Moonshine Central"]
+	},
+	{
+		"name": "Debtville",
+		"adjective": ["Debtor"],
+		"cityStateType": "Labor",
+		"style": "Gang",
+		"uniques": [
+			"[+1] Sight <for [{Military} {Land}] units>",
+		],
+		"declaringWar": "They say our debts are cleared if we attack you!",
+		"attacked": "Hey! I haven't paid off that one!",
+		"defeated": "Finally, our debts are cleared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [133, 140, 109],
+		"cities": ["Debtville"]
+	},
+	{
+		"name": "Stim City",
+		"adjective": ["Stimmer"],
+		"cityStateType": "Culture",
+		"style": "Gang",
+		"uniques": [
+			"[+1] Sight <for [{Military} {Land}] units>",
+		],
+		"declaringWar": "Ooh, going to war is exhilarating!",
+		"attacked": "That hurts, in a good way! My turn!",
+		"defeated": "Oh no, how am I supposed to get my highs now?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [169, 74, 176],
+		"cities": ["Stim City"]
+	},
 ]
