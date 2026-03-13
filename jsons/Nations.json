@@ -13,11 +13,11 @@
 	Deadrock -> Debtville, Stim City
 	Crimson Legion -> Demeter Commune, Oraculata
 	Cult of Ignis -> History-Men, Guzzo Lake
-	Mariners -> Dagon Flotilla, Waveriders
+	Mariners -> Rusalka Flotilla, Waveriders
 	New Afrika -> Sahel Triumvirate, Griot College
 	Proklyatyye -> Hundred Hands, Radium Monastery
 	Hunnu -> Golden Horde, Horned Clans
-	Prasiddh -> Orbital Chroniclers, Mahagurus
+	Prasiddh -> Astral Chroniclers, Mahagurus
 	Calamity Star -> Accelerationists, Unbound Martyrs
 	
 	CS types: Research, Prayer, Farming, Trading, Weapons, Culture, Labor
@@ -322,4 +322,258 @@
 		"innerColor": [169, 74, 176],
 		"cities": ["Stim City"]
 	},
+	{
+		"name": "Demeter Commune",
+		"adjective": ["Demeter"],
+		"cityStateType": "Farming",
+		"style": "Legion",
+		"uniques": [
+			"Starts with [Redomestication]"
+		],
+		"declaringWar": "The fields must be watered with your blood!",
+		"attacked": "Go on, become fertilizer for our crops.",
+		"defeated": "Woe, our crops have wilted and our fields salted!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [111, 227, 104],
+		"cities": ["Demeter Commune"]
+	},
+	{
+		"name": "Oraculata",
+		"adjective": ["Oraculata"],
+		"cityStateType": "Prayer",
+		"style": "Legion",
+		"uniques": [
+			"Starts with [Redomestication]"
+		],
+		"declaringWar": "The oracles have foretold of your downfall.",
+		"attacked": "This has been prophesied by the oracles. And so is our retaliation.",
+		"defeated": "Allegedly, the oracles didn't predict this far into the future...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [216, 136, 242],
+		"cities": ["Oraculata"]
+	},
+	{
+		"name": "History-Men",
+		"adjective": ["History-Men"],
+		"cityStateType": "Culture",
+		"style": "Ignis",
+		"uniques": [
+			"Starts with [Machinery]"
+		],
+		"declaringWar": "Come, let us make history!",
+		"attacked": "There is no end to this cycle of violence.",
+		"defeated": "The tides of history swallows us, as it shall swallow you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [245, 219, 179],
+		"cities": ["Historical"]
+	},
+	{
+		"name": "Guzzo Lake",
+		"adjective": ["Guzzo Lake"],
+		"cityStateType": "Labor",
+		"style": "Ignis",
+		"uniques": [
+			"Starts with [Machinery]"
+		],
+		"declaringWar": "Come on mate, the lake's thirsty for you!",
+		"attacked": "Quite the firestarter, aren't you?",
+		"defeated": "Watch as it all went up in flames.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [117, 80, 42],
+		"cities": ["Guzzo Lake"]
+	},
+	{
+		"name": "Rusalka Flotilla",
+		"adjective": ["Rusalki"],
+		"cityStateType": "Prayer",
+		"style": "Tribal",
+		"uniques": [
+			"Enables embarkation for land units",
+			"Enables [All] units to enter ocean tiles"
+		],
+		"declaringWar": "The Rusalki shall drown you all!",
+		"attacked": "Dip your toe in our waters, see what happens.",
+		"defeated": "Our faith has dried up, and the Rusalki with it.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [130, 209, 237],
+		"cities": ["Rusalka Crag"]
+	},
+	{
+		"name": "Waveriders",
+		"adjective": ["Waverider"],
+		"cityStateType": "Culture",
+		"style": "Tribal",
+		"uniques": [
+			"Enables embarkation for land units",
+			"Enables [All] units to enter ocean tiles"
+		],
+		"declaringWar": "The big wave's coming in - cowabunga, dudes!",
+		"attacked": "That's just bogus, man.",
+		"defeated": "We got totally wiped out, bro. Lame-o.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [74, 90, 237],
+		"cities": ["Waverider Shack"]
+	},
+	{
+		"name": "Sahel Triumvirate",
+		"adjective": ["Sahelian"],
+		"cityStateType": "Trading",
+		"style": "Afrikan",
+		"uniques": [
+			"Starts with [Secrets of the Past]",
+			"Starts with [Redomestication]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We've held on long enough.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [98, 145, 64],
+		"cities": ["Sahel Benkan"]
+	},
+	{
+		"name": "Griot College",
+		"adjective": ["Griot"],
+		"cityStateType": "Culture",
+		"style": "Afrikan",
+		"uniques": [
+			"Starts with [Secrets of the Past]",
+			"Starts with [Redomestication]"
+		],
+		"declaringWar": "This battle will be remembered in our plays.",
+		"attacked": "In the stories, a righteous force shall vanquish you! We'll gladly take on that role!",
+		"defeated": "I hope you'll preserve our stories.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [127, 30, 166],
+		"cities": ["Griot College"]
+	},
+	{
+		"name": "Hundred Hands",
+		"adjective": ["Hundred Hands"],
+		"cityStateType": "Labor",
+		//"style": "Corporate",
+		"uniques": [
+			"[{non-[Air]} {Military}] units gain the [Radioactive] promotion",
+		],
+		"declaringWar": "Our hundred arms shall grasp the entirety that is you.",
+		"attacked": "A hundred fists shall rain upon you.",
+		"defeated": "A slayer arrived to end our misery, that is the end of old Hundred Hands.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [150, 119, 6],
+		"cities": ["Hundred Hands"]
+	},
+	{
+		"name": "Radium Monastery",
+		"adjective": ["Radium"],
+		"cityStateType": "Prayer",
+		//"style": "Corporate",
+		"uniques": [
+			"[{non-[Air]} {Military}] units gain the [Radioactive] promotion",
+		],
+		"declaringWar": "The holy radiance has decreed a crusade upon you.",
+		"attacked": "Face us at your own peril, for the radiance protects us!",
+		"defeated": "This is the end of our half-lives - may the radiance envelop us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [84, 148, 204],
+		"cities": ["Radium Monastery"]
+	},
+	{
+		"name": "Golden Horde",
+		"adjective": ["Golden Horde"],
+		"cityStateType": "Trading",
+		//"style": "Corporate",
+		"uniques": [
+			"Starts with [Redomestication]",
+			"[+10]% Strength <vs [Barbarian] units>"
+		],
+		"declaringWar": "Your riches shall be ours!",
+		"attacked": "Do not assume we will just do nothing about this.",
+		"defeated": "Aa... time to scatter to the four winds.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250, 225, 37],
+		"cities": ["Sarai Sighnaq"]
+	},
+	{
+		"name": "Horned Clans",
+		"adjective": ["Horned Clans"],
+		"cityStateType": "Farming",
+		//"style": "Corporate",
+		"uniques": [
+			"Starts with [Redomestication]",
+			"[+10]% Strength <vs [Barbarian] units>"
+		],
+		"declaringWar": "STAMPEDE!",
+		"attacked": "Mess with the flock, you get the horns.",
+		"defeated": "You've pulled the wool over our eyes.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [242, 237, 194],
+		"cities": ["Horned Pastures"]
+	},
+	{
+		"name": "Astral Chroniclers",
+		"adjective": ["Chroniclers"],
+		"cityStateType": "Culture",
+		//"style": "Corporate",
+		"uniques": [
+			"Starts with [Writing]",
+			"Starts with [Machinery]",
+			"Provides a [Launchpad] in your first [1] cities for free <upon discovering [Rocketry] technology>"
+		],
+		"declaringWar": "We must attack you, it is written in the stars.",
+		"attacked": "The stars told us so.",
+		"defeated": "The stars' gone dim, and the sky's turned black...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0, 79, 168],
+		"cities": ["Astral Observatory"]
+	},
+	{
+		"name": "Mahagurus",
+		"adjective": ["Mahaguru"],
+		"cityStateType": "Research",
+		//"style": "Corporate",
+		"uniques": [
+			"Starts with [Writing]",
+			"Starts with [Machinery]",
+			"Provides a [Launchpad] in your first [1] cities for free <upon discovering [Rocketry] technology>"
+		],
+		"declaringWar": "The mahagurus decree, it is time to cleanse!",
+		"attacked": "You dare? We know martial arts!.",
+		"defeated": "The mahagurus' teachings are lost! Lost!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [111, 232, 200],
+		"cities": ["Astral Observatory"]
+	},
+	{
+		"name": "Accelerationists",
+		"adjective": ["Accelerationist"],
+		"cityStateType": "Research",
+		//"style": "Corporate",
+		"uniques": [
+			"Starts with [Secrets of the Past]",
+			"[+1 Faith] from every [Mountain]",
+			"[+1 Faith] from every [Mountain Tunnel]",
+		],
+		"declaringWar": "We must speed up the new calamity!",
+		"attacked": "Just what we needed! Time to enact our plans!",
+		"defeated": "Where's the kaboom? Where's the earth-shattering kaboom?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [161, 123, 84],
+		"cities": ["Accelerat"]
+	},
+	{
+		"name": "Unbound Martyrs",
+		"adjective": ["Unbound"],
+		"cityStateType": "Weapons",
+		//"style": "Corporate",
+		"uniques": [
+			"Starts with [Secrets of the Past]",
+			"[+1 Faith] from every [Mountain]",
+			"[+1 Faith] from every [Mountain Tunnel]",
+		],
+		"declaringWar": "This has been promised to us, you shall not deny it!",
+		"attacked": "How kind of you to let us throw our lives at you.",
+		"defeated": "Finally, time for us to ascend into a higher plane!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [115, 52, 78],
+		"cities": ["Martyr's Rest"]
+	}
 ]
