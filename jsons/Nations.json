@@ -8,7 +8,7 @@
 	Blackwarden -> Phantom Company, Bullet Bazaar
 	Atlas -> Vault Cerebro, Daedalus Workshops
 	Commonwealth -> Navarro Stead, Goldbank
-	Patriots -> Jericho Hold, Agribase Delta
+	Patriots -> Valley Forge, Agribase Delta
 	Enclavers -> Thornton Clan, Moonshiners
 	Deadrock -> Debtville, Stim City
 	Crimson Legion -> Demeter Commune, Oraculata
@@ -229,8 +229,8 @@
 		"cities": ["Goldbank"]
 	},
 	{
-		"name": "Jericho Hold",
-		"adjective": ["Jericho"],
+		"name": "Valley Forge",
+		"adjective": ["Valley Forge"],
 		"cityStateType": "Weapons",
 		"style": "Military",
 		"uniques": [
@@ -238,11 +238,11 @@
 			"Starts with [Writing]"
 		],
 		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Jericho will hold!",
-		"defeated": "The trumpets finally call for us...",
+		"attacked": "By the Founding Fathers, we will not let this stand!",
+		"defeated": "Oh say can you see...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [138, 255, 245],
-		"cities": ["Jericho Hold"]
+		"cities": ["Valley Forge"]
 	},
 	{
 		"name": "Agribase Delta",
@@ -365,7 +365,7 @@
 		"defeated": "The tides of history swallows us, as it shall swallow you.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [245, 219, 179],
-		"cities": ["Historical"]
+		"cities": ["City Historic"]
 	},
 	{
 		"name": "Guzzo Lake",
