@@ -17,4 +17,52 @@
 	- Radium Monastery: Radiant Zealot
 	- Unbound Martyrs: Unbound Martyr
 */
+	{
+		"name": "Nomad Rider",
+		"uniqueTo": "Nomad Army",
+		"replaces": "Horseman",
+		"unitType": "Scrapper",
+		"movement": 3,
+		"strength": 20,
+		"cost": 70,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Hussar",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"Double movement in [Desert]",
+			"Double movement in [Badlands]",
+			"Double movement in [Wasteland]",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Nomad Rifleman",
+		"uniqueTo": "Nomad Army",
+		"replaces": "Rifleman",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 35,
+		"rangedStrength": 30,
+		"interceptRange": 1,
+		"cost": 120,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Marksman",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Double movement in [Desert]",
+			"Double movement in [Badlands]",
+			"Double movement in [Wasteland]",
+		],
+		"attackSound": "shot"
+	},
 ]
