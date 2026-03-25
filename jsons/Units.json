@@ -65,4 +65,74 @@
 		],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Ruin Hunter",
+		"uniqueTo": "Northwood Lodge",
+		"replaces": "Crossbowman",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 15,
+		"cost": 35,
+		"hurryCostModifier": 20,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Invisible to non-adjacent units <in [Forest] tiles>"
+		],
+		"promotions": ["Urban Warfare I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Tower Sniper",
+		"uniqueTo": "Tower Dwellers",
+		"replaces": "Marksman",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Marksman",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[+1] Range <in [Jungle] tiles>"
+		],
+		"promotions": [
+			"Reconnaissance I",
+			"Urban Warfare I"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Phantom Ops",
+		"unitType": "Shooter",
+		"uniqueTo": "Phantom Company",
+		"replaces": "Marksman",
+		"upgradesTo": "Black Ops",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 300,
+		"hurryCostModifier": 20,
+		"requiredTech": "Rifling",
+		"uniques": [
+			"Personnel",
+			"[-25]% Strength <before discovering [Replaceable Parts]>",
+			"Consumes [1] [Weapons]",
+			"[-60]% production cost <after discovering [Replaceable Parts]>"
+		],
+		"promotions": ["Reconnaissance I", "Amphibious", "Ambush", "Gas Mask","Thermoptic Camouflage"],
+		"attackSound": "machinegun"
+	},
 ]
