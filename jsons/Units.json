@@ -6,7 +6,7 @@
 	- Tower Dwellers: Tower Sniper
 	- Phantom Company: Phantom Ops
 	- Navarro Stead: Navarro Horseman
-	- Jericho Hold: Jericho Cannon
+	- Valley Forge: Flag-Waver
 	- Debtville: Debt Conscript
 	- Oraculata: Oracle
 	- History-Men: Inscribed Ones
@@ -134,5 +134,47 @@
 		],
 		"promotions": ["Reconnaissance I", "Amphibious", "Ambush", "Gas Mask","Thermoptic Camouflage"],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Navarro Horseman",
+		"uniqueTo": "Navarro Stead",
+		"replaces": "Horseman",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 22,
+		"cost": 70,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Hussar",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+20]% Strength <when defending> <in [Food source] tiles>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Flag-Waver",
+		"uniqueTo": "Valley Forge",
+		"replaces": "Spearman",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+10]% Strength bonus for [Personnel] units within [1] tiles"
+		],
+		"attackSound": "nonmetalhit"
 	},
 ]
